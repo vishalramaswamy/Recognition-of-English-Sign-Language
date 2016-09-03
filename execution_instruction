@@ -1,0 +1,3 @@
+To execute the project code we need to install OpenCV C++ and then compile it using the following command
+
+g++ -ggdb `pkg-config --cflags opencv` -o `basename project_code.cpp .cpp` project_code.cpp `pkg-config --libs opencv`
